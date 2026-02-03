@@ -1,6 +1,6 @@
 # Student Management System (Java + JDBC + MySQL)
 
-A console-based Java application that performs CRUD operations on student records using JDBC and MySQL.
+A console-based Java application that performs FULL CRUD operations on student records using JDBC and MySQL.
 
 ## Features
 - Add student
@@ -14,13 +14,17 @@ A console-based Java application that performs CRUD operations on student record
 - Java
 - JDBC
 - MySQL
-- Eclipse
 
 ## Project Structure
 - com.sms.main
+  - MainApp.java
 - com.sms.model
+  - Student.java
 - com.sms.dao
+  - StudentDAO.java
+  - StudentDAOImpl.java
 - com.sms.util
+  - DBConnection.java
 
 ## How to Run
 1. Create MySQL database `student_db`
