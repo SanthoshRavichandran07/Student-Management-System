@@ -16,15 +16,16 @@ A console-based Java application that performs FULL CRUD operations on student r
 - MySQL
 
 ## Project Structure
-- com.sms.main
-  - MainApp.java
-- com.sms.model
-  - Student.java
-- com.sms.dao
-  - StudentDAO.java
-  - StudentDAOImpl.java
-- com.sms.util
-  - DBConnection.java
+- src
+  - com.sms.main
+    - MainApp.java
+  - com.sms.model
+    - Student.java
+  - com.sms.dao
+    - StudentDAO.java
+    - StudentDAOImpl.java
+  - com.sms.util
+    - DBConnection.java
 
 ## How to Run
 1. Create MySQL database `student_db`
